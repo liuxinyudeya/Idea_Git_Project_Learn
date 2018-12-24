@@ -1,0 +1,9 @@
+2.  session(服务端，并且是内置对象)
+    cookie（客户端，并且不是内置对象） 不是内置对象就需要new关键字来创建；
+        作用：提高访问服务端的效率 ，但是安全性较差 Cookie对象有javax.http.Cookie这个Java类提供 键值对 key=value;
+        服务器将Cookie发送给客户端
+        response.addCookie(Cookie cookie);
+        客户端获取Cookie
+        request.getCookie();
+
+        a.不能获取单个cookie 只能获取全部cookies[]
