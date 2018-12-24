@@ -1,0 +1,21 @@
+1.JDBC (java DataBase Connectivity) java数据库连接 可以为多种数据库DBMS 提供统一的访问方式 用Java程序来操纵数据库
+2.JDBC API(application programming interface) 应用程序编程接口
+    DriverManager : 管理JDBC驱动
+    Connection : 与数据库建立连接
+    Statement (PreparedStatement) : 增删改查
+    CallableStatement : 调用数据库的 存储过程/ 存储函数
+    Result : 返回的结果集
+
+3.JDBC访问数据库的具体步骤:
+    a.导入驱动 ,载入具体的驱动类
+    b.与数据库建立连接
+    c.发送sql并执行
+    d.处理结果集 (查询)
+
+4.数据库驱动
+                    驱动包名                        驱动类
+oracle              ojdbc-x.jar                     oracle.jdbc.oracleDriver
+mysql               mysql-connector-java.jar        com.mysql.jdbc.driver
+sqlserver           sqljdbc-x.jar                   com.micsoft.sqlserver.jdbc.SqlserverDriver
+
+
