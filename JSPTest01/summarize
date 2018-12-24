@@ -7,3 +7,6 @@
         request.getCookie();
 
         a.不能获取单个cookie 只能获取全部cookies[]
+
+3.session
+    session机制：
