@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Idea_Git_Project_Learn.iml" filepath="$PROJECT_DIR$/.idea/Idea_Git_Project_Learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSPTest01/JSPTest01.iml" filepath="$PROJECT_DIR$/JSPTest01/JSPTest01.iml" />
+    </modules>
+  </component>
+</project>
